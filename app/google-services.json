@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "59287175521",
+    "firebase_url": "https://bookmark-9bf54-default-rtdb.firebaseio.com",
+    "project_id": "bookmark-9bf54",
+    "storage_bucket": "bookmark-9bf54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59287175521:android:cf1d1dbb6c6b88e9c14520",
+        "android_client_info": {
+          "package_name": "com.example.readify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgQR5dpBr_OLYSqKbkyeEd_w-ybgfdcEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

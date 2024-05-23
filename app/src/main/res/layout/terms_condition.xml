@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/tvHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#300A4A"
+        android:text="@string/terms"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:padding="16dp"
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tvHeader"
+        android:layout_above="@+id/btnAccept"
+        android:fillViewport="true">
+
+        <TextView
+            android:id="@+id/tvContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:text="@string/kata_terms" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnAccept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#0A8754"
+        android:text="I've agree with this"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnDecline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnAccept"
+        android:background="#B00020"
+        android:text="Decline"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

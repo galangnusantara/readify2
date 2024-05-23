@@ -1,0 +1,193 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <!-- HorizontalScrollView for the book list -->
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <!-- LinearLayout to hold the book items -->
+        <LinearLayout
+            android:id="@+id/linear_layout_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- LinearLayout 1 - The Hobbit -->
+            <LinearLayout
+                android:id="@+id/linear_layout_thehobbit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/Kiminonawa"
+                    android:layout_width="124dp"
+                    android:layout_height="166dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="4dp"
+                    android:background="@color/white"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/book1"
+                    android:contentDescription="ImageButton for The Hobbit book"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kimi No Nawa"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="David Wenzel"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+            <!-- LinearLayout 2 - Last Train to Istanbul -->
+            <LinearLayout
+                android:id="@+id/linear_layout_lasttraintoistanbul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/KafkaonTheShore"
+                    android:layout_width="124dp"
+                    android:layout_height="166dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="4dp"
+                    android:background="@color/white"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/book2"
+                    android:contentDescription="ImageButton for Last Train to Istanbul book"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kafka on The Shore"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Aise Kulin"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+            <!-- LinearLayout 3 - Utopia -->
+            <LinearLayout
+                android:id="@+id/linear_layout_utopia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/Aboutyou"
+                    android:layout_width="124dp"
+                    android:layout_height="166dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="4dp"
+                    android:background="@color/white"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/book3"
+                    android:contentDescription="ImageButton for Utopia book"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="About You"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sir Thomas More"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+            <!-- LinearLayout 4 - Night Spinner -->
+            <LinearLayout
+                android:id="@+id/linear_layout_nightspinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/HumanAct"
+                    android:layout_width="124dp"
+                    android:layout_height="166dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="4dp"
+                    android:background="@color/white"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/book4"
+                    android:contentDescription="ImageButton for Night Spinner book"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Human Act"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Addie Thorley"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+            <!-- LinearLayout 5 - Wilder Girl -->
+            <LinearLayout
+                android:id="@+id/linear_layout_wildergirl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/Matahari"
+                    android:layout_width="124dp"
+                    android:layout_height="166dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="4dp"
+                    android:background="@color/white"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/book5"
+                    android:contentDescription="ImageButton for Wilder Girl book"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Matahari"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rory Power"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

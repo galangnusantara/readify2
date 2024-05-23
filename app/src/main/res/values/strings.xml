@@ -1,0 +1,82 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">readify</string>
+    <string name="terms_condition"><![CDATA[Terms & Condition]]></string>
+    <string name="terms"><![CDATA[Terms & Condition]]></string>
+    <string name="kata_terms">Your privacy is important to us. It is Brainstorming\'s policy to respect your privacy regarding any information we may collect from you across our website, and other sites we own and operate. We only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent. We also let you know why we’re collecting it and how it will be used. We only retain collected information for as long as necessary to provide you with your requested service.</string>
+    <string name="push_notification">Push Notification</string>
+    <string name="title_the_hobbit">The Hobbit</string>
+    <string name="title_last_train_to_istanbul">Last Train to Istanbul</string>
+    <string name="title_utopia">Utopia</string>
+    <string name="title_night_spinner">Night Spinner</string>
+    <string name="title_wilder_girl">Wilder Girl</string>
+    <string name="title_kimi_no_nawa">Kimi no Nawa</string>
+    <string name="title_kafka_on_the_shore">Kafka on the Shore</string>
+    <string name="title_about_you">About you</string>
+    <string name="title_human_act">Human Act</string>
+    <string name="title_matahari">Matahari</string>
+    <string name="new_realise">New Realise</string>
+    <string name="Popular">Popular</string>
+    <string name="sharedpreferences">sharedPreferences</string>
+    <string name="email_label">Email: %s</string>
+    <string name="username_label">Username: %s</string>
+
+    <string-array name="book_titles">
+        <item>@string/title_kimi_no_nawa</item>
+        <item>@string/title_kafka_on_the_shore</item>
+        <item>@string/title_about_you</item>
+        <item>@string/title_human_act</item>
+        <item>@string/title_matahari</item>
+        <item>@string/title_wilder_girl</item>
+        <item>@string/title_night_spinner</item>
+        <item>@string/title_utopia</item>
+        <item>@string/title_last_train_to_istanbul</item>
+        <item>@string/title_the_hobbit</item>
+    </string-array>
+
+
+
+    <string-array name="author_names">
+        <item>Author 1</item>
+        <item>Author 2</item>
+        <item>Author 3</item>
+        <item>Author 4</item>
+        <item>Author 5</item>
+        <item>Author 6</item>
+        <item>Author 7</item>
+        <item>Author 8</item>
+        <item>Author 9</item>
+        <item>Author 10</item>
+        <!-- Tambahkan nama penulis lainnya sesuai dengan jumlah buku -->
+    </string-array>
+    <string name="page_1_content">Kisah dimulai dengan pengenalan Bilbo Baggins, seorang hobbit yang hidupnya damai dan teratur. Suatu hari, Bilbo dikejutkan oleh kedatangan penyihir Gandalf dan rombongan kurcaci yang dipimpin oleh Thorin Oakenshield. Mereka mencari seorang pencuri yang dapat membantu mereka merebut kembali Kerajaan Erebor dari naga Smaug.\n\nMeskipun ragu-ragu awalnya, Bilbo akhirnya bergabung dengan rombongan sebagai pencuri yang diharapkan. Mereka melakukan perjalanan melalui berbagai daerah berbahaya, termasuk Trollshaws, hutan Mirkwood, dan Pegunungan Berkabut, di mana mereka menghadapi berbagai rintangan dan bahaya. Namun, tidak ada bahaya yang bisa menghalangi tekad mereka untuk mencapai tujuan mereka.\n\nSetelah melewati berbagai ujian, rombongan akhirnya tiba di Kerajaan Erebor. Mereka berhasil memasuki kota yang ditinggalkan dan menemukan harta besar di dalamnya. Namun, saat mereka berjuang untuk merebut kembali kekuasaan mereka, mereka menemukan bahwa Smaug, naga yang kuat dan rakus, telah merebut kerajaan tersebut. Rombongan meluncurkan serangan terhadap Smaug, dengan tujuan untuk membunuhnya dan merebut kembali kerajaan mereka. Namun, Smaug yang licik dan kuat menyebabkan kerusakan besar sebelum terbang pergi untuk membalas dendam.</string>
+
+    <string name="page_2_content">Konflik mencapai puncaknya ketika pasukan elf dan manusia mengepung Erebor untuk mendapatkan bagian dari harta yang telah ditemukan. Thorin menolak untuk berbagi harta itu dan perselisihan antara para pihak mencapai titik kritis. Pertempuran besar yang dikenal sebagai Pertempuran Lima Orang terjadi. Di tengah pertempuran, pasukan Goblin dan Warg menyerang, memaksa semua pihak untuk bersatu melawan musuh yang lebih besar. Dalam pertempuran tersebut, Thorin gugur, tetapi akhirnya musuh berhasil dikalahkan.\n\nSetelah pertempuran, Bilbo kembali ke Bukit Hobbit. Meskipun dia telah berubah oleh petualangan dan pengalaman yang dia alami, hidupnya di kampung halaman menjadi nyaman lagi. Namun, sekarang dia memiliki harta yang cukup untuk mengubah hidupnya dan cerita petualangan yang luar biasa untuk diceritakan. Dia merenungkan peristiwa-peristiwa yang telah terjadi dan berharap untuk masa depan yang lebih cerah.\n\nNamun, di tengah kedamaian, Bilbo merasa sebuah panggilan untuk petualangan baru. Meskipun dia menikmati kenyamanan di rumahnya, ada bagian dari dirinya yang merindukan kegembiraan dan tantangan petualangan. Apakah dia akan memilih untuk tetap di rumah atau mengikuti panggilan hatinya, itulah yang akan menjadi keputusannya.</string>
+
+    <string name="page_3_content">Setelah pertempuran, Bilbo kembali ke Bukit Hobbit. Meskipun dia telah berubah oleh petualangan dan pengalaman yang dia alami, hidupnya di kampung halaman menjadi nyaman lagi. Namun, sekarang dia memiliki harta yang cukup untuk mengubah hidupnya dan cerita petualangan yang luar biasa untuk diceritakan.\n\nMeskipun kembali ke kehidupan yang tenang di Bukit Hobbit, Bilbo tidak bisa sepenuhnya melupakan petualangannya. Kenangan akan teman-temannya yang telah gugur dan pengalaman yang dia alami terus menghantuinya.\n\nTerlebih lagi, harta yang dia bawa pulang juga membawanya ke dalam konflik batin. Sementara bagian dari dirinya ingin menjaga harta itu untuk keamanannya sendiri, ada juga panggilan hati untuk berbagi dengan mereka yang membutuhkan. Dalam keadaan bingung ini, Bilbo memutuskan untuk melakukan perjalanan sekali lagi, mungkin kali ini bukan untuk mencari harta, tetapi untuk menemukan kedamaian dalam dirinya sendiri. Dia menyadari bahwa petualangan sejati mungkin bukan sekadar tentang harta, tetapi tentang penemuan diri dan pengorbanan untuk kebaikan orang lain.</string>
+    <string-array name="page_numbers">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="page_numbers_white">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <!-- Tambahkan item untuk setiap halaman yang ada -->
+    </string-array>
+
+
+    <string-array name="book_images">
+        <item>@drawable/book1</item>
+        <item>@drawable/book2</item>
+        <item>@drawable/book3</item>
+        <item>@drawable/book4</item>
+        <item>@drawable/book5</item>
+        <item>@drawable/book6</item>
+        <item>@drawable/book7</item>
+        <item>@drawable/book8</item>
+        <item>@drawable/book9</item>
+        <item>@drawable/book10</item>
+    </string-array>
+</resources>

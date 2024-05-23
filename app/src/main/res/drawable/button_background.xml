@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Untuk tombol "New Release" -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Saat tombol dalam keadaan ditekan -->
+    <item android:drawable="@android:color/transparent" android:state_pressed="true" />
+
+    <!-- Saat tombol dalam keadaan difokus -->
+    <item android:drawable="@android:color/transparent" android:state_focused="true" />
+
+    <!-- Saat tombol dalam keadaan normal -->
+    <item android:drawable="@android:color/transparent" />
+
+    <!-- Saat tombol berada di halaman "New Release" -->
+    <item android:drawable="@android:color/black" android:state_selected="true" />
+
+    <!-- Saat tombol tidak berada di halaman "New Release" -->
+    <item android:drawable="@android:color/darker_gray" android:state_selected="false" />
+</selector>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#C2BCBC</color>
+    <color name="buttonPressed">#009688</color>
+    <color name="button">#051D66</color>
+    <color name="trackColor">#343646</color>
+
+    <color name="googleButton">#F8F2F2</color>
+</resources>

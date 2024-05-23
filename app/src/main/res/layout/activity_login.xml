@@ -1,0 +1,100 @@
+  <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:padding="16dp">
+
+    <!-- Container with Shape Background -->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/background_shape"
+        android:padding="16dp">
+
+        <!-- Welcome Text -->
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome Back"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"/>
+
+        <!-- Subtitle Text -->
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Text Here"
+            android:layout_below="@id/textView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"/>
+
+        <!-- Email EditText -->
+        <EditText
+            android:id="@+id/Email"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/textView2"
+            android:layout_marginTop="20dp"
+            android:hint="Email"
+            android:paddingStart="8dp"/>
+
+        <!-- Password EditText -->
+        <EditText
+            android:id="@+id/Password"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/Email"
+            android:layout_marginTop="20dp"
+            android:hint="Password"
+            android:paddingStart="8dp"/>
+
+        <!-- Login Button -->
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/Password"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button"
+            android:text="Login"
+            android:textColor="@color/white"/>
+
+        <!-- Google Button -->
+        <Button
+            android:id="@+id/buttongoogle"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/buttonLogin"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button"
+            android:text="Google"
+            android:textColor="@color/white"/>
+
+        <!-- Facebook Button -->
+        <Button
+            android:id="@+id/buttonfb"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/buttongoogle"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button"
+            android:text="Facebook"
+            android:textColor="@color/white"/>
+
+        <!-- Sign Up Text -->
+        <TextView
+            android:id="@+id/buttonRegistrasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Belum mempunyai akun? Sign up"
+            android:layout_below="@id/buttonfb"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"/>
+    </RelativeLayout>
+</RelativeLayout>

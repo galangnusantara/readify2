@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Saat tombol dalam keadaan normal -->
+    <item android:color="@android:color/black" android:state_pressed="false" />
+
+    <!-- Saat tombol berada di halaman "New Release" -->
+    <item android:color="@android:color/black" android:state_selected="true" />
+
+    <!-- Saat tombol tidak berada di halaman "New Release" -->
+    <item android:color="@android:color/darker_gray" />
+</selector>

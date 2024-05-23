@@ -1,0 +1,14 @@
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="@color/white" />
+
+
+    <corners android:radius="8dp" /> <!-- Sudut dengan radius 8dp -->
+
+    <!-- Stroke (border) -->
+    <stroke
+        android:width="3dp"
+        android:color="#B0B0B0" /> <!-- Garis tepi dengan warna yang sama -->
+</shape>
